@@ -10,7 +10,7 @@ import { CategoriaService } from '../../../core/services/categoria.service';
   templateUrl: './categoria-lista.html',
 })
 export class CategoriaLista implements OnInit {
-  categorias: Categoria[];
+  categorias!: Categoria[];
   constructor(private categoriaService: CategoriaService){
 
   }
